@@ -15,6 +15,7 @@
 ) = {
     set text(lang: "zh")
     set document(author: authors, title: title)
+    show cite:set text(rgb("#0000ff"))
 
     // 设置页面
     set page(
