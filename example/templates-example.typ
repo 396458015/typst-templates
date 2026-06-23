@@ -1,6 +1,6 @@
 #import "@local/template:1.0.0": *
 #import "@local/gb7714-bilingual:0.2.3": init-gb7714, gb7714-bibliography, multicite
-#show: init-gb7714.with(read("refs.bib"), style: "numeric", version: "2025")
+#show: init-gb7714.with(read("ref.bib"), style: "numeric", version: "2025")
 #show: template.with(
 chapter-numbering: true,
 section-symbol: true,
