@@ -1,6 +1,0 @@
-[package]
-name = "book"
-version = "1.0.0"
-entrypoint = "book.typ"
-authors = ["Maxl"]
-description = "A Typst template for creating notebooks."
