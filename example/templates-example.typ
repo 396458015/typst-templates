@@ -2,19 +2,19 @@
 #import "@local/gb7714-bilingual:0.2.3": init-gb7714, gb7714-bibliography, multicite
 #show: init-gb7714.with(read("refs.bib"), style: "numeric", version: "2025")
 #show: template.with(
-chapter-numbering: false,
-section-symbol: false,
-outline-enable: false,
+chapter-numbering: true,
+section-symbol: true,
+outline-enable: true,
 
     title: "标题",
-    // authors: "作者1, 作者2, 作者3",
-    // date: "XXXX-XX-XX",
+    authors: "作者1, 作者2, 作者3",
+    date: "XXXX-XX-XX",
 
-    // abstract: [摘要内容。],
-    // keywords: (
-    //   "关键词1",
-    //   "关键词2",
-    // ),
+    abstract: [摘要内容。],
+    keywords: (
+      "关键词1",
+      "关键词2",
+    ),
 )
 
 
