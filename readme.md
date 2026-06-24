@@ -193,7 +193,7 @@ description = "A Typst template for reports and papers."
 
 ```typst
 #show: init-gb7714.with(
-  read("refs.bib"),
+  read("ref.bib"),
   style: "numeric",
   version: "2025",
 )
@@ -202,6 +202,8 @@ description = "A Typst template for reports and papers."
 正文引用：
 
 ```typst
+#@ma2023
+
 #multicite[@ma2023]
 
 #multicite[@ma2023, @zj2017]
@@ -226,7 +228,7 @@ description = "A Typst template for reports and papers."
   multicite
 
 #show: init-gb7714.with(
-  read("refs.bib"),
+  read("ref.bib"),
   style: "numeric",
   version: "2025",
 )
